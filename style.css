@@ -1,0 +1,66 @@
+.banner {
+  background-image: url("https://loremflickr.com/1000/500/cats");
+  background-size: cover;
+
+}
+
+.banner h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: aqua;
+}
+
+.banner p {
+  color: blueviolet;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.container h1 h2 p {
+  font-family: 'Courier New', Courier, monospace;
+  color: blueviolet;
+}
+
+.fancy-link {
+  background-image: linear-gradient(to bottom, rgba(273, 345, 263, 1), rgba(123, 234, 195, 2));
+}
+
+a {
+
+  color: blueviolet;
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, rgba(273, 100, 263, 1), rgba(123, 234, 195, 2));
+
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
